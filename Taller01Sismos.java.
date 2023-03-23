@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Taller01Sismos {
+   public static void main (String[]arg){
+
+      int matriz[7][24]
+      imprimir(matriz);
+   }
+   int matriz[][]= new int[7][15];
+
+
+   public static void matriz{
+    for(int i=0;i< matriz.length;i++){
+       for (int j=0;j< matriz.length;j++){
+          matriz[i][j]=(double)(Math.random()*9,9);
+       }
+    }
+   }
+
+   public static void imprimir(int matriz[][]){
+      
+   }
+}
